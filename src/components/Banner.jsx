@@ -57,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Raunak`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Raunak`} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Passionate web developer with a relentless pursuit of knowledge. Specializing in the MERN Stack, 
 I approach challenges with determination. Transitioning to part-time graphic design, I aim to fuse technical expertise with artistic flair. Committed to crafting visually stunning designs and pushing the boundaries of innovation in both coding and design realms.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
